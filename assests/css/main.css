@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.picture {
+    width: 100%;
+}
+
+:root {
+    --Subcolor: #6C7275;
+}
+
+span {
+    color: var(--Subcolor);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar a{
+    font-weight: 500;
+}
+.navbar-brand{
+    font-size: x-large;
+}
+.nav-link{
+    font-size: large;
+}
