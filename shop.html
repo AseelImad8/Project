@@ -25,10 +25,10 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./shop.html">Shop</a>
+                            <a class="nav-link active" href="./shop.html">Shop</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./product.html">Product</a>
@@ -48,20 +48,273 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="container">
         <section class="all-products">
-            <select>
-                <option selected>All Room</option>
-                <option value="Living Room">Living Room</option>
-                <option value="Bedroom">Bedroom</option>
-                <option value="Kitchen">Kitchen</option>
-            </select>
-            <select>
-                <option selected>All Prices</option>
-                <option value="0-50">$0 - $50</option>
-                <option value="51-100">$51 - $100</option>
-                <option value="500+">$500+</option>
-            </select>
+            <div class="classification">
+                <div>
+                    <label for="categories" class="label-sel d-block p-1" style="color: #6C7275; margin-top: 10px;">CATEGORIES</label>
+                    <select>
+                        <option selected>All Room</option>
+                        <option value="Living Room">Living Room</option>
+                        <option value="Bedroom">Bedroom</option>
+                        <option value="Kitchen">Kitchen</option>
+                    </select>
+                </div>
+                <div>
+                <label for="price" class="label-sel d-block p-1" style="color: #6C7275; margin-top: 10px;">PRICE</label>
+                <select>
+                    <option selected>All Prices</option>
+                    <option value="0-50">$0 - $50</option>
+                    <option value="51-100">$51 - $100</option>
+                    <option value="500+">$500+</option>
+                </select>
+            </div>
+            </div>
+            <div class="products">
+                <div class=" product-item  ">
+                    <img class="picture" src="./assests/img/product/Paste image.svg" />
+                    <div class="product-info">
+                        <div class="d-flex flex-column">
+                            <button class="new">NEW</button>
+                            <button class="percentage">50%</button>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="d-flex flex-row p-1 gap-1">
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                        </div>
+                        <h5>Loveseat Sofa</h5>
+                        <span>$199.00 <span class="seconed">$400.00</span></span>
+                    </div>
+                </div>
+                <div class=" product-item  ">
+                    <img class="picture" src="./assests/img/shop/shop-2.svg" />
+                    <div class="product-info">
+                        <div class="d-flex flex-column">
+                            <button class="new">NEW</button>
+                            <button class="percentage">50%</button>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="d-flex flex-row p-1 gap-1">
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                        </div>
+                        <h5>Table Lamp</h5>
+                        <span>$299.00 <span class="seconed">$500.00</span></span>
+                    </div>
+                </div>
+                <div class=" product-item  ">
+                    <img class="picture" src="./assests/img/shop/shop-3 .svg" />
+                    <div class="product-info">
+                        <div class="d-flex flex-column">
+                            <button class="new">NEW</button>
+                            <button class="percentage">50%</button>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="d-flex flex-row p-1 gap-1">
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                        </div>
+                        <h5>Table Lamp</h5>
+                        <span>$19.00</span>
+                    </div>
+                </div>
+                <div class=" product-item  ">
+                    <img class="picture" src="./assests/img/shop/shop-4.svg" />
+                    <div class="product-info">
+                        <div class="d-flex flex-column">
+                            <button class="new">NEW</button>
+                            <button class="percentage">50%</button>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="d-flex flex-row p-1 gap-1">
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                        </div>
+                        <h5>Cozy Sofa</h5>
+                        <span>$299.00</span>
+                    </div>
+                </div>
+                <div class=" product-item  ">
+                    <img class="picture" src="./assests/img/shop/shop-5.svg" />
+                    <div class="product-info">
+                        <div class="d-flex flex-column">
+                            <button class="new">NEW</button>
+                            <button class="percentage">50%</button>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="d-flex flex-row p-1 gap-1">
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                        </div>
+                        <h5>White Drawer unit</h5>
+                        <span>$89.99</span>
+                    </div>
+                </div>
+                <div class=" product-item  ">
+                    <img class="picture" src="./assests/img/shop/shop-6.svg" />
+                    <div class="product-info">
+                        <div class="d-flex flex-column">
+                            <button class="new">NEW</button>
+                            <button class="percentage">50%</button>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="d-flex flex-row p-1 gap-1">
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                        </div>
+                        <h5>Black Tray table</h5>
+                        <span>$19.99</span>
+                    </div>
+                </div>
+                <div class=" product-item  ">
+                    <img class="picture" src="./assests/img/shop/shop-7.svg" />
+                    <div class="product-info">
+                        <div class="d-flex flex-column">
+                            <button class="new">NEW</button>
+                            <button class="percentage">50%</button>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="d-flex flex-row p-1 gap-1">
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                        </div>
+                        <h5>Table Lamp</h5>
+                        <span>$19.00</span>
+                    </div>
+                </div>
+                <div class=" product-item  ">
+                    <img class="picture" src="./assests/img/shop/shop-8.svg" />
+                    <div class="product-info">
+                        <div class="d-flex flex-column">
+                            <button class="new">NEW</button>
+                            <button class="percentage">50%</button>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="d-flex flex-row p-1 gap-1">
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                        </div>
+                        <h5>Black Brow Side table</h5>
+                        <span>$16.99</span>
+                    </div>
+                </div>
+                <div class=" product-item  ">
+                    <img class="picture" src="./assests/img/shop/shop-9.svg" />
+                    <div class="product-info">
+                        <div class="d-flex flex-column">
+                            <button class="new">NEW</button>
+                            <button class="percentage">50%</button>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="d-flex flex-row p-1 gap-1">
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                        </div>
+                        <h5>Light Beige Pillow</h5>
+                        <span>$3.99</span>
+                    </div>
+                </div>
+                <div class=" product-item  ">
+                    <img class="picture" src="./assests/img/shop/shop-10.svg" />
+                    <div class="product-info">
+                        <div class="d-flex flex-column">
+                            <button class="new">NEW</button>
+                            <button class="percentage">50%</button>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="d-flex flex-row p-1 gap-1">
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                        </div>
+                        <h5>Table Lamp</h5>
+                        <span>$39.99</span>
+                    </div>
+                </div>
+                <div class=" product-item  ">
+                    <img class="picture" src="./assests/img/shop/shop-11.svg" />
+                    <div class="product-info">
+                        <div class="d-flex flex-column">
+                            <button class="new">NEW</button>
+                            <button class="percentage">50%</button>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="d-flex flex-row p-1 gap-1">
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                        </div>
+                        <h5>Bamboo Basket</h5>
+                        <span>$9.99</span>
+                    </div>
+                </div>
+                <div class=" product-item  ">
+                    <img class="picture" src="./assests/img/shop/shop-12.svg" />
+                    <div class="product-info">
+                        <div class="d-flex flex-column">
+                            <button class="new">NEW</button>
+                            <button class="percentage">50%</button>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="d-flex flex-row p-1 gap-1">
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                            <img src="./assests/img/icons/Star Fill.svg" />
+                        </div>
+                        <h5>Off-white Pillow</h5>
+                        <span>$7.99</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-more d-flex justify-content-center">
+                <bottom class="more">Show more</bottom>
+            </div>
         </section>
     </main>
     <footer class="footer mt-4">

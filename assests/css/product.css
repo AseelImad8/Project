@@ -1,3 +1,255 @@
+/* start product-one */
+.product-one {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px 20px;
+    width: calc((100% - 20px) / 2);
+    height: fit-content;
+}
+
+.image img {
+    width: calc((100% - 10px) / 2);
+}
+
+.product-details {
+    width: calc((100% - 20px) / 2);
+    padding-left: 10px;
+}
+
+.product-details h6 {
+    font-size: 40px;
+}
+
+.product-details span {
+    color: #000;
+
+}
+
+.product-details .second {
+    color: #6C7275;
+    text-decoration: line-through;
+}
+
+.product-details input {
+    width: 100px;
+    background-color: #F5F5F5;
+    border: solid 1px #F5F5F5;
+    border-radius: 8px;
+}
+
+.wish {
+    width: 300px;
+    background-color: #fff;
+    border: #000 solid 1px;
+    border-radius: 8px;
+}
+
+.add {
+    width: 410px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.review h5 {
+    font-size: 16px;
+}
+
+.review p {
+    font-size: 12px;
+}
+.hide-rev{
+    display: none;
+}
+@media (max-width: 1024px) {
+    .product-details input {
+        width: 50px;
+    }
+
+    .wish {
+        width: 150px;
+    }
+
+    .add {
+        width: 210px;
+    }
+    .hidee{
+        display: none;
+    }
+    .product-one {
+        flex-direction: column;
+    }
+    .image{
+        width: 80%;
+    }
+    .product-details{
+        width: 80%;
+    }
+}
+
+@media (max-width: 426px) {
+    .image{
+        width: 100%;
+    }
+    .image img{
+        width: 100%;
+    }
+    .product-details{
+        width: 100%;
+    }
+    .hide-2{
+        display: none;
+    }
+    .product-details{
+        display: none;
+    }
+    .hide-rev{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+/* end product-one */
+/* start section two */
+.two a {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.arrival-title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 5px;
+    width: 100%;
+}
+
+@media (max-width: 375px) {
+    .two a {
+        display: none;
+    }
+}
+
+/* end section two */
+/* start Arrivals */
+.arrival {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.arrival-item {
+    position: relative;
+    width: 100%;
+}
+
+.arrival-info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.new {
+    background-color: #fff;
+    font-weight: 700;
+    border: solid 2px #fff;
+    padding: 0px 8px;
+    border-radius: 10%;
+}
+
+.percentage {
+    background-color: #38CB89;
+    font-weight: 700;
+    border: solid 2px #38CB89;
+    padding: 0px 10px;
+    border-radius: 10%;
+    color: #fff;
+}
+
+.rating {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.rating .seconed {
+    text-decoration: line-through;
+    color: #6C7275;
+}
+
+.arrivals a {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.arrivals span {
+    color: #000;
+    font-weight: 600;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .arrival-info {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 860px) {
+    .last {
+        display: none;
+    }
+}
+
+@media (max-width: 690px) {
+    .four {
+        display: none;
+    }
+}
+
+@media (max-width: 510px) {
+    .three {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .two a {
+        display: none;
+    }
+
+    .twoo {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .hide {
+        display: inline;
+    }
+}
+
+/* end Arrivals */
 /* start footer */
 .footer-top {
     background-color: #38CB89;
@@ -165,6 +417,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .Privacy {
         font-size: 15px;
     }
@@ -172,10 +425,12 @@
     .trans {
         display: none;
     }
+
     .footer-two .icon {
         justify-content: center;
         align-items: center;
     }
+
     .footer-nav ul {
         flex-direction: column;
         justify-content: center;
@@ -187,6 +442,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .footer-des {
         flex-direction: column;
         justify-content: center;
