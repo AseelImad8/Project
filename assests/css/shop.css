@@ -1,3 +1,74 @@
+/* start shop-page */
+.shop-top {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shopp {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+@media (max-width:1200px) {
+    .shopp {
+        left: 30%;
+    }
+}
+
+@media (max-width:768px) {
+    .shopp {
+        left: 25%;
+    }
+}
+
+@media (max-width:600px) {
+    .shopp {
+        left: 20%;
+    }
+}
+
+@media (max-width:500px) {
+    .shopp {
+        left: 25%;
+    }
+
+    .shopp p {
+        font-size: small;
+    }
+}
+
+@media (max-width:460px) {
+    .shopp {
+        left: 25%;
+        top: 20%;
+        width: 200px;
+    }
+}
+
+@media (max-width:375px) {
+    .shopp {
+        left: 22%;
+        top: 10%;
+    }
+}
+
+@media (max-width:320px) {
+    .shopp {
+        left: 20%;
+        top: 5%;
+    }
+}
+
+/* end shop-page */
+
 /* start all-products */
 .all-products span {
     color: #000;
@@ -69,7 +140,7 @@
     color: #fff;
 }
 
-.more {
+.show-more {
     border: 1px solid #141718;
     text-align: center;
     border-radius: 80px;
@@ -97,82 +168,7 @@
     }
 }
 
-/* start all-products */
-/* start shop-page */
-.shop-top {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.shopp {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    position: absolute;
-    top: 35%;
-    left: 35%;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-}
-
-.more-product {
-    display: none;
-}
-
-@media (max-width:1200px) {
-    .shopp {
-        left: 30%;
-    }
-}
-
-@media (max-width:768px) {
-    .shopp {
-        left: 25%;
-    }
-}
-
-@media (max-width:600px) {
-    .shopp {
-        left: 20%;
-    }
-}
-
-@media (max-width:500px) {
-    .shopp {
-        left: 25%;
-    }
-
-    .shopp p {
-        font-size: small;
-    }
-}
-
-@media (max-width:460px) {
-    .shopp {
-        left: 25%;
-        top: 20%;
-        width: 200px;
-    }
-}
-
-@media (max-width:375px) {
-    .shopp {
-        left: 22%;
-        top: 10%;
-    }
-}
-
-@media (max-width:320px) {
-    .shopp {
-        left: 20%;
-        top: 5%;
-    }
-}
-
-/* end shop-page */
-
+/* end all-products */
 /* start footer */
 .footer-top {
     background-color: #38CB89;

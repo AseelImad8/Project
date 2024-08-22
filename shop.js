@@ -1,6 +1,5 @@
 
 let products = document.querySelectorAll(".product-item");
-console.log(products);
 
 for (var i = 0; i < products.length; i++) {
     products[i].addEventListener('click', function (event) {
@@ -9,3 +8,5 @@ for (var i = 0; i < products.length; i++) {
 }
 
 const readBottom = document.querySelector("read-more");
+const moreProducts = document.querySelectorAll(".more-product");
+console.log(moreProducts);
