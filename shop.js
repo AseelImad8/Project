@@ -27,3 +27,34 @@ readBottom.addEventListener('click', function () {
         }
     }
 });
+
+
+document.querySelector(".categorie").addEventListener('change', function (e) {
+    let type = e.target.value;
+    const Allproducts = document.querySelectorAll('.product-item');
+
+    for (var i = 0; i < Allproducts.length; i++) {
+        let product = Allproducts[i];
+
+        if (product.classList.contains(type)) {
+            product.style.display = 'block';
+        } else {
+            product.style.display = 'none';
+        }
+    }
+});
+
+document.querySelector(".pric").addEventListener('change', function (e) {
+    let type = e.target.value;
+    const Allproducts = document.querySelectorAll('.product-item');
+
+    for (var i = 0; i < Allproducts.length; i++) {
+        let product = Allproducts[i];
+
+        if (product.classList.contains(type)) {
+            product.style.display = 'block';
+        } else {
+            product.style.display = 'none';
+        }
+    }
+});

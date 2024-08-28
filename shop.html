@@ -51,9 +51,9 @@
                 <div>
                     <label for="categories" class="label-sel d-block p-1"
                         style="color: #6C7275; margin-top: 10px;">CATEGORIES</label>
-                    <select>
-                        <option selected>All Room</option>
-                        <option value="Living Room">Living Room</option>
+                    <select class="categorie">
+                        <option value="all">All Room</option>
+                        <option value="LivingRoom">Living Room</option>
                         <option value="Bedroom">Bedroom</option>
                         <option value="Kitchen">Kitchen</option>
                     </select>
@@ -61,16 +61,16 @@
                 <div>
                     <label for="price" class="label-sel d-block p-1"
                         style="color: #6C7275; margin-top: 10px;">PRICE</label>
-                    <select>
-                        <option selected>All Prices</option>
-                        <option value="0-50">$0 - $50</option>
-                        <option value="51-100">$51 - $100</option>
-                        <option value="500+">$500+</option>
+                    <select class="pric">
+                        <option value="all">All Prices</option>
+                        <option value="cheap">$0 - $50</option>
+                        <option value="mid">$51 - $100</option>
+                        <option value="expensive">$100 - $400</option>
                     </select>
                 </div>
             </div>
             <div class="products">
-                <div class=" product-item  ">
+                <div class=" product-item all LivingRoom expensive">
                     <img class="picture" src="./assests/img/product/Paste image.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -90,7 +90,7 @@
                         <span>$199.00 <span class="seconed">$400.00</span></span>
                     </div>
                 </div>
-                <div class=" product-item  ">
+                <div class=" product-item all LivingRoom expensive">
                     <img class="picture" src="./assests/img/shop/shop-2.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -110,7 +110,7 @@
                         <span>$299.00 <span class="seconed">$500.00</span></span>
                     </div>
                 </div>
-                <div class=" product-item  ">
+                <div class=" product-item all Bedroom cheap">
                     <img class="picture" src="./assests/img/shop/shop-3 .svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -130,7 +130,7 @@
                         <span>$19.00</span>
                     </div>
                 </div>
-                <div class=" product-item  ">
+                <div class=" product-item all LivingRoom expensive">
                     <img class="picture" src="./assests/img/shop/shop-4.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -150,7 +150,7 @@
                         <span>$299.00</span>
                     </div>
                 </div>
-                <div class=" product-item  ">
+                <div class=" product-item all Bedroom mid">
                     <img class="picture" src="./assests/img/shop/shop-5.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -170,7 +170,7 @@
                         <span>$89.99</span>
                     </div>
                 </div>
-                <div class=" product-item  ">
+                <div class=" product-item all Kitchen cheap">
                     <img class="picture" src="./assests/img/shop/shop-6.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -190,7 +190,7 @@
                         <span>$19.99</span>
                     </div>
                 </div>
-                <div class=" product-item  ">
+                <div class=" product-item all Bedroom cheap">
                     <img class="picture" src="./assests/img/shop/shop-7.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -210,7 +210,7 @@
                         <span>$19.00</span>
                     </div>
                 </div>
-                <div class=" product-item  ">
+                <div class=" product-item all Kitchen cheap">
                     <img class="picture" src="./assests/img/shop/shop-8.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -230,7 +230,7 @@
                         <span>$16.99</span>
                     </div>
                 </div>
-                <div class=" product-item  ">
+                <div class=" product-item all LivingRoom cheap">
                     <img class="picture" src="./assests/img/shop/shop-9.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -250,7 +250,7 @@
                         <span>$3.99</span>
                     </div>
                 </div>
-                <div class=" product-item  ">
+                <div class=" product-item all Bedroom cheap">
                     <img class="picture" src="./assests/img/shop/shop-10.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -270,7 +270,7 @@
                         <span>$39.99</span>
                     </div>
                 </div>
-                <div class=" product-item  ">
+                <div class=" product-item all Kitchen cheap">
                     <img class="picture" src="./assests/img/shop/shop-11.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -290,7 +290,7 @@
                         <span>$9.99</span>
                     </div>
                 </div>
-                <div class=" product-item  ">
+                <div class=" product-item all LivingRoom cheap">
                     <img class="picture" src="./assests/img/shop/shop-12.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -310,7 +310,7 @@
                         <span>$7.99</span>
                     </div>
                 </div>
-                <div  class="more-product show product-item ">
+                <div class="more-product show product-item ">
                     <img class="picture" src="./assests/img/shop/shop-5.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -330,7 +330,7 @@
                         <span>$89.99</span>
                     </div>
                 </div>
-                <div  class="more-product show product-item ">
+                <div class="more-product show product-item ">
                     <img class="picture" src="./assests/img/shop/shop-6.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -350,7 +350,7 @@
                         <span>$19.99</span>
                     </div>
                 </div>
-                <div  class="more-product show product-item ">
+                <div class="more-product show product-item ">
                     <img class="picture" src="./assests/img/shop/shop-7.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -370,7 +370,7 @@
                         <span>$19.00</span>
                     </div>
                 </div>
-                <div  class="more-product show product-item ">
+                <div class="more-product show product-item ">
                     <img class="picture" src="./assests/img/shop/shop-8.svg" />
                     <div class="product-info">
                         <div class="d-flex flex-column">
@@ -429,9 +429,6 @@
                     </li>
                     <li>
                         <a href="./shop.html">Shop</a>
-                    </li>
-                    <li>
-                        <a href="./product.html">Product</a>
                     </li>
                     <li>
                         <a href="./contact.html">Contact</a>

@@ -149,9 +149,11 @@
     padding: 6px 40px;
     font-weight: 400;
 }
-.more-product{
+
+.more-product {
     display: none;
 }
+
 @media (max-width:768px) {
     .product-item {
         width: calc((100% - 20px) / 3);
